@@ -17,7 +17,6 @@ class TodoList extends Component
 
     public $search;
 
-
     public $editingTodoId;
 
     #[Rule('required|min:3|max:50')]
